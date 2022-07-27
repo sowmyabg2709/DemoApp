@@ -5,7 +5,7 @@
 	parallel="tests" verbose="3">
 
 	<test name="Orange HRM Test - chrome">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="MyTests.OrangeHRMTest">
 			</class>
