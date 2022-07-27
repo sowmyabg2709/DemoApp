@@ -22,40 +22,40 @@
 		
 	</test>  
 	
-	<test name="Login Page negative Test">
+<!--  	<test name="Login Page negative Test">
 		<parameter name="browser" value="chrome" />
 		
 		<classes>
 			<class name="com.qa.opencart.tests.LoginNegativeTest"/>			
 		</classes>
 		
-	</test> 
+	</test> -->
 	
-<!--	<test name="Accounts Page Test">
+	<test name="Accounts Page Test">
 		<parameter name="browser" value="firefox" />
 		
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest"/>			
 		</classes>
 		
-	</test>  --> 
+	</test>  
 	
-<!-- 	<test name="Product Info  Page Test">
+ 	<test name="Product Info  Page Test">
 		<parameter name="browser" value="firefox" />
 
 		<classes>
 			<class name="com.qa.opencart.tests.ProductInfoTest" />
 		</classes>
 
-	</test> -->
+	</test> 
 	
- 	<test name="Registration  Page Test">
+ <!--  	<test name="Registration  Page Test">
 		<parameter name="browser" value="chrome" />
 		
 		<classes>
 			<class name="com.qa.opencart.tests.RegistrationPageTets"/>			
 		</classes>
 		
-	</test>      
+	</test>   -->   
 
 </suite>
