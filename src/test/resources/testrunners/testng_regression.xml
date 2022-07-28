@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Demo Cart Automation Test automtion regression suite" thread-count="3"
+<suite name="Demo Cart Automation Test automtion regression suite" thread-count="2"
 	parallel="tests" verbose="3">
 	
  	<listeners>
@@ -22,17 +22,17 @@
 		
 	</test>  
 	
-<!--  	<test name="Login Page negative Test">
+  	<test name="Login Page negative Test">
 		<parameter name="browser" value="chrome" />
 		
 		<classes>
 			<class name="com.qa.opencart.tests.LoginNegativeTest"/>			
 		</classes>
 		
-	</test> -->
+	</test> 
 	
 	<test name="Accounts Page Test">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 		
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest"/>			
@@ -40,14 +40,14 @@
 		
 	</test>  
 	
- 	<test name="Product Info  Page Test">
-		<parameter name="browser" value="firefox" />
+ <!--  	<test name="Product Info  Page Test">
+		<parameter name="browser" value="chrome" />
 
 		<classes>
 			<class name="com.qa.opencart.tests.ProductInfoTest" />
 		</classes>
 
-	</test> 
+	</test> -->
 	
  <!--  	<test name="Registration  Page Test">
 		<parameter name="browser" value="chrome" />
